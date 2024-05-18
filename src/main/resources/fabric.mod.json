@@ -1,24 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "zoom-fix",
   "version": "${version}",
-  "name": "",
-  "description": "",
+  "name": "Optifine Unbound Zoom Fix",
+  "description": "-2 < -1 < 0",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://github.com/tildejustin/zoom-fix",
+    "sources": "https://github.com/tildejustin/zoom-fix",
+    "issues": "https://github.com/tildejustin/zoom-fix/issues"
   },
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
-  ],
-  "depends": {
-    "minecraft": "*",
-    "fabricloader": ">=0.15.0"
-  }
+    "zoom-fix.mixins.json"
+  ]
 }
